@@ -62,18 +62,18 @@ export const SuratIzinA5 = React.forwardRef<HTMLDivElement, SuratIzinProps>(
     return (
       <div className="a5-page-container" ref={ref}>
         <div className="a5-header">
-          <h3>PONDOK PESANTREN E-NAJAH</h3>
-          <p>Jl. Raya Pahlawan No. 123, Sumbersuko, Jawa Timur</p>
+          <h3>PONDOK PESANTREN DARUN NAJAH</h3>
+          <p>Jl. KH Musthofa No 05,Petahunan, Sumbersuko, Jawa Timur</p>
           <div className="a5-divider"></div>
         </div>
         
         <div className="a5-content">
-          <h4 className="a5-title">SURAT IZIN KEMBALI</h4>
+          <h4 className="a5-title">SURAT IZIN</h4>
           {/* --- NOMOR SURAT DIPERBARUI --- */}
           <p className="a5-subtitle">Nomor Surat: {nomorSuratLengkap}</p>
 
           <p className="a5-body-text">
-            Yang bertanda tangan di bawah ini, Pengurus Pondok Pesantren E-Najah,
+            Yang bertanda tangan di bawah ini, Pengurus Pondok Pesantren Darun Najah,
             memberikan izin kepada santri:
           </p>
           
@@ -117,7 +117,7 @@ export const SuratIzinA5 = React.forwardRef<HTMLDivElement, SuratIzinProps>(
           </div>
           
           <div className="a5-ttd">
-            <p>Sumbersuko, {tanggalCetak}</p>
+            <p>Lumajang, {tanggalCetak}</p>
             <p>Menyetujui,</p>
             <div className="a5-ttd-space"></div>
             <p className="a5-ttd-nama">{data.disetujui_oleh || "Ndalem"}</p>
